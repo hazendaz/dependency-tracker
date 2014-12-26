@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.hazendaz</groupId>
         <artifactId>base-parent</artifactId>
-        <version>4</version>
+        <version>5</version>
     </parent>
     <artifactId>dependency-tracker</artifactId>
     <packaging>pom</packaging>
@@ -16,7 +16,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12-beta-3</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
-            <version>1.10.8</version>
+            <version>1.10.17</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -99,31 +99,31 @@
         <dependency>
             <groupId>com.sun.faces</groupId>
             <artifactId>jsf-api</artifactId>
-            <version>2.2.8-02</version>
+            <version>2.2.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.sun.faces</groupId>
             <artifactId>jsf-impl</artifactId>
-            <version>2.2.8-02</version>
+            <version>2.2.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.richfaces</groupId>
             <artifactId>richfaces</artifactId>
-            <version>4.5.0.Final</version>
+            <version>4.5.1.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.richfaces</groupId>
             <artifactId>richfaces-a4j</artifactId>
-            <version>4.5.0.Final</version>
+            <version>4.5.1.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.richfaces</groupId>
             <artifactId>richfaces-core</artifactId>
-            <version>4.5.0.Final</version>
+            <version>4.5.1.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -235,7 +235,7 @@
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core-impl</artifactId>
-            <version>2.2.7.Final</version>
+            <version>2.2.8.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -251,13 +251,13 @@
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core-jsf</artifactId>
-            <version>2.2.7.Final</version>
+            <version>2.2.8.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se-core</artifactId>
-            <version>2.2.7.Final</version>
+            <version>2.2.8.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -269,7 +269,7 @@
         <dependency>
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet-core</artifactId>
-            <version>2.2.7.Final</version>
+            <version>2.2.8.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -293,109 +293,109 @@
         <dependency>
             <groupId>org.apache.deltaspike.core</groupId>
             <artifactId>deltaspike-core-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.core</groupId>
             <artifactId>deltaspike-core-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-weld</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-security-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-security-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jsf-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jsf-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jpa-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jpa-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-data-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-data-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-servlet-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-servlet-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-partial-bean-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-partial-bean-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-bean-validation-module-api</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-bean-validation-module-impl</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -555,31 +555,31 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.7.7</version>
+            <version>1.7.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jul-to-slf4j</artifactId>
-            <version>1.7.7</version>
+            <version>1.7.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
-            <version>1.7.7</version>
+            <version>1.7.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.7</version>
+            <version>1.7.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-ext</artifactId>
-            <version>1.7.7</version>
+            <version>1.7.9</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -597,13 +597,13 @@
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
-            <version>2.7.6</version>
+            <version>2.7.7</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>commons-compiler</artifactId>
-            <version>2.7.6</version>
+            <version>2.7.7</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -621,7 +621,7 @@
         <dependency>
             <groupId>com.github.dblock.waffle</groupId>
             <artifactId>waffle-jna</artifactId>
-            <version>1.7</version>
+            <version>1.7.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -633,13 +633,13 @@
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet</artifactId>
-            <version>2.13</version>
+            <version>2.14</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet-core</artifactId>
-            <version>2.13</version>
+            <version>2.14</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -651,7 +651,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>2.13</version>
+            <version>2.14</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -667,13 +667,13 @@
         <dependency>
             <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
             <artifactId>jersey-guava</artifactId>
-            <version>2.13</version>
+            <version>2.14</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>2.13</version>
+            <version>2.14</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -685,7 +685,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
-            <version>2.13</version>
+            <version>2.14</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -783,7 +783,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId> 
-            <version>2.3.8</version>
+            <version>2.3.9</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
