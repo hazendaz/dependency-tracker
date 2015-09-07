@@ -77,7 +77,7 @@
         <dependency>
             <groupId>com.googlecode.htmlcompressor</groupId>
             <artifactId>htmlcompressor</artifactId>
-            <version>1.5.3</version>
+            <version>1.5.2</version> <!-- 1.5.3 not officially released -->
             <scope>compile</scope>
         </dependency>
         <dependency>
