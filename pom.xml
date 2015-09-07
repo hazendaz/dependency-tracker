@@ -112,19 +112,19 @@
         <dependency>
             <groupId>org.richfaces</groupId>
             <artifactId>richfaces</artifactId>
-            <version>4.5.7.Final</version>
+            <version>4.5.8.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.richfaces</groupId>
             <artifactId>richfaces-a4j</artifactId>
-            <version>4.5.7.Final</version>
+            <version>4.5.8.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.richfaces</groupId>
             <artifactId>richfaces-core</artifactId>
-            <version>4.5.7.Final</version>
+            <version>4.5.8.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
