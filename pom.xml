@@ -148,13 +148,13 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcpg-jdk15on</artifactId>
-            <version>1.53</version>
+            <version>1.54</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.53</version>
+            <version>1.54</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
