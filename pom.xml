@@ -71,7 +71,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator-annotation-processor</artifactId>
-            <version>5.2.2.Final</version>
+            <version>5.2.3.Final</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -484,13 +484,13 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>5.2.2.Final</version>
+            <version>5.2.3.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator-cdi</artifactId>
-            <version>5.2.2.Final</version>
+            <version>5.2.3.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
