@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.objenesis</groupId>
             <artifactId>objenesis</artifactId>
-            <version>2.3</version>
+            <version>2.4</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -142,7 +142,7 @@
         <dependency>
             <groupId>net.sourceforge.cssparser</groupId>
             <artifactId>cssparser</artifactId>
-            <version>0.9.18</version>
+            <version>0.9.19</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
