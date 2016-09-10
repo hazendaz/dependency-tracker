@@ -89,7 +89,7 @@
         <dependency>
             <groupId>se.jiderhamn</groupId>
             <artifactId>classloader-leak-prevention</artifactId>
-            <version>1.15.2</version>
+            <version>1.15.4</version>
             <exclusions>
                 <exclusion>
                     <artifactId>servlet-api</artifactId>
