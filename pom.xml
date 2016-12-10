@@ -28,8 +28,8 @@
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.10.19</version>
+            <artifactId>mockito-core</artifactId>
+            <version>2.3.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -75,9 +75,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.googlecode.htmlcompressor</groupId>
+            <groupId>com.github.hazendaz</groupId>
             <artifactId>htmlcompressor</artifactId>
-            <version>1.5.2</version> <!-- 1.5.3 not officially released -->
+            <version>1.6.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -442,7 +442,7 @@
         <dependency>
             <groupId>org.mybatis.caches</groupId>
             <artifactId>mybatis-ehcache</artifactId>
-            <version>1.0.3</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -580,13 +580,13 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.1.7</version>
+            <version>1.1.8</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.1.7</version>
+            <version>1.1.8</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -766,7 +766,7 @@
         <dependency>
             <groupId>org.csveed</groupId>
             <artifactId>csveed</artifactId>
-            <version>0.4.2</version>
+            <version>0.5.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
