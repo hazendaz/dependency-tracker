@@ -29,13 +29,13 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>2.3.0</version>
+            <version>2.6.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.objenesis</groupId>
             <artifactId>objenesis</artifactId>
-            <version>2.4</version>
+            <version>2.5</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -71,13 +71,13 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator-annotation-processor</artifactId>
-            <version>5.3.4.Final</version>
+            <version>5.4.0.CR1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.github.hazendaz</groupId>
             <artifactId>htmlcompressor</artifactId>
-            <version>1.6.1</version>
+            <version>1.6.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>se.jiderhamn.classloader-leak-prevention</groupId>
             <artifactId>classloader-leak-prevention-servlet3</artifactId>
-            <version>2.1.0</version>
+            <version>2.2.0</version>
         </dependency>
         <dependency>
             <groupId>com.sun.faces</groupId>
@@ -136,19 +136,19 @@
         <dependency>
             <groupId>net.sourceforge.cssparser</groupId>
             <artifactId>cssparser</artifactId>
-            <version>0.9.20</version>
+            <version>0.9.21</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcpg-jdk15on</artifactId>
-            <version>1.55</version>
+            <version>1.56</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.55</version>
+            <version>1.56</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -276,7 +276,7 @@
         <dependency>
             <groupId>org.jboss.classfilewriter</groupId>
             <artifactId>jboss-classfilewriter</artifactId>
-            <version>1.1.2.Final</version>
+            <version>1.2.1.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -436,7 +436,7 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.4.1</version>
+            <version>3.4.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -478,7 +478,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>5.3.4.Final</version>
+            <version>5.5.0.CR1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -604,13 +604,13 @@
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna</artifactId>
-            <version>4.2.2</version>
+            <version>4.3.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna-platform</artifactId>
-            <version>4.2.2</version>
+            <version>4.3.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -778,7 +778,7 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId> 
-            <version>2.4.7</version>
+            <version>2.4.8</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
