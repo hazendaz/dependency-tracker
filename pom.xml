@@ -142,13 +142,13 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcpg-jdk15on</artifactId>
-            <version>1.56</version>
+            <version>1.57</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.56</version>
+            <version>1.57</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -218,19 +218,19 @@
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-api</artifactId>
-            <version>2.4.SP1</version>
+            <version>3.0.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-spi</artifactId>
-            <version>2.4.SP1</version>
+            <version>3.0.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core-impl</artifactId>
-            <version>2.4.3.Final</version>
+            <version>3.0.0.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -246,13 +246,13 @@
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core-jsf</artifactId>
-            <version>2.4.3.Final</version>
+            <version>3.0.0.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se-core</artifactId>
-            <version>2.4.3.Final</version>
+            <version>3.0.0.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -264,7 +264,7 @@
         <dependency>
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet-core</artifactId>
-            <version>2.4.3.Final</version>
+            <version>3.0.0.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
