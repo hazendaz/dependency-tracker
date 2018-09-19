@@ -752,6 +752,7 @@
             <artifactId>groovy-all</artifactId>
             <version>2.5.2</version>
             <scope>compile</scope>
+            <type>pom</type>
         </dependency>
     </dependencies>
 </project>
