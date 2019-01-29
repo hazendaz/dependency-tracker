@@ -252,9 +252,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>javax.interceptor</groupId>
-            <artifactId>javax.interceptor-api</artifactId>
-            <version>1.2.2</version>
+            <groupId>jakarta.interceptor</groupId>
+            <artifactId>jakarta.interceptor-api</artifactId>
+            <version>1.2.4</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
