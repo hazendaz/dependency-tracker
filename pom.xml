@@ -171,8 +171,8 @@
         </dependency>
         <dependency>
             <groupId>org.glassfish</groupId>
-            <artifactId>javax.el</artifactId>
-            <version>3.0.1-b11</version>
+            <artifactId>jakarta.el</artifactId>
+            <version>3.0.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
