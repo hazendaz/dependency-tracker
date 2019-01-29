@@ -372,20 +372,10 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax.ejb</groupId>
-            <artifactId>javax.ejb-api</artifactId>
-            <version>3.2.2</version>
+            <groupId>jakarta.ejb</groupId>
+            <artifactId>jakarta.ejb-api</artifactId>
+            <version>3.2.5</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <artifactId>javax.annotation</artifactId>
-                    <groupId>org.glassfish.main.javaee-api</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>javax.transaction</artifactId>
-                    <groupId>org.glassfish.main.transaction</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>javax.annotation</groupId>
