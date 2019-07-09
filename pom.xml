@@ -554,7 +554,7 @@
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
-            <version>3.0.13</version>
+            <version>3.0.14</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
