@@ -995,7 +995,7 @@
         <dependency>
             <groupId>jakarta.mail</groupId>
             <artifactId>jakarta.mail-api</artifactId>
-            <version>1.6.4</version>
+            <version>1.6.5</version>
              <scope>compile</scope>
         </dependency>
         <dependency>
