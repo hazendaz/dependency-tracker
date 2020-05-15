@@ -875,7 +875,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-catalina-ha</artifactId>
-            <version>9.0.34</version>
+            <version>9.0.35</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
