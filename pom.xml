@@ -869,7 +869,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-tribes</artifactId>
-            <version>9.0.35</version>
+            <version>9.0.36</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
