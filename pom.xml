@@ -13,6 +13,11 @@
     <name>dependency-tracker</name>
     <description>Dependency Tracker using Maven Site Version Checks</description>
     <inceptionYear>2011</inceptionYear>
+
+    <properties>
+        <!-- Dependencies -->
+        <mockito.version note="Trying to trip up renovate">3.3.0</mockito.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -23,7 +28,13 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>3.4.0</version>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
