@@ -16,7 +16,7 @@
 
     <properties>
         <!-- Dependencies -->
-        <mockito.version note="Trying to trip up renovate">3.4.3</mockito.version>
+        <mockito.version note="Trying to trip up renovate">3.4.4</mockito.version>
     </properties>
     <dependencies>
         <dependency>
