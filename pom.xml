@@ -32,7 +32,15 @@
     <properties>
         <!-- Dependencies -->
         <mockito.version note="Trying to trip up renovate">3.5.13</mockito.version>
+
+        <!-- Node Version -->
+        <node.version>v14.6.0</node.version>
+
+        <!-- Frontend Configuration -->
+        <frontend.path>${main.basedir}</frontend.path>
+        <node.path>${main.basedir}</node.path>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -1056,4 +1064,59 @@
              <scope>compile</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.mycila</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <version>${license.plugin}</version>
+                <configuration>
+                    <excludes combine.children="append">
+                        <exclude>**/node/**</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>1.10.0</version>
+                <configuration>
+                    <nodeVersion>${node.version}</nodeVersion>
+
+                    <installDirectory>${node.path}</installDirectory>
+                    <workingDirectory>${frontend.path}</workingDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>install node and npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                    </execution>
+
+                    <execution>
+                        <id>clean cache</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>cache clean --force</arguments>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>npm install renovate</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>install -g renovate</arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -1,0 +1,8 @@
+{
+    "name": "renovate",
+    "version": "23.40.1",
+    "private": true,
+    "devDependencies": {
+        "renovate": "23.40.1"
+    }
+}
