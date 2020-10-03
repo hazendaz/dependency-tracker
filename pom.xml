@@ -133,21 +133,21 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.richfaces</groupId>
+            <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces</artifactId>
-            <version>4.5.17.Final</version>
+            <version>4.6.13.ayg</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.richfaces</groupId>
+            <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces-a4j</artifactId>
-            <version>4.5.17.Final</version>
+            <version>4.6.13.ayg</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.richfaces</groupId>
+            <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces-core</artifactId>
-            <version>4.5.17.Final</version>
+            <version>4.6.13.ayg</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
