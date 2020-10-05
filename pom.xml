@@ -243,7 +243,7 @@
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core-impl</artifactId>
-            <version>3.1.5.SP1</version>
+            <version>3.1.5.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
