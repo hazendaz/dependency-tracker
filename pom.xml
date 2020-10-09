@@ -880,7 +880,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper</artifactId>
-            <version>9.0.38</version>
+            <version>9.0.39</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
