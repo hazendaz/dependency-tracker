@@ -795,7 +795,7 @@
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
-            <version>5.2</version>
+            <version>5.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
