@@ -952,7 +952,7 @@
         <dependency>
             <groupId>jakarta.xml.ws</groupId>
             <artifactId>jakarta.xml.ws-api</artifactId>
-            <version>3.0.0-RC3</version>
+            <version>3.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
