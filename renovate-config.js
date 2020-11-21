@@ -1,5 +1,5 @@
 /*
- * base-parent (https://github.com/hazendaz/base-parent)
+ * dependency-tracker (https://github.com/hazendaz/dependency-tracker)
  *
  * Copyright 2011-2020 Hazendaz.
  *
