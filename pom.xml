@@ -52,7 +52,7 @@
         <mockito.version note="Trying to trip up renovate">3.6.0</mockito.version>
 
         <!-- Node Version -->
-        <node.version>v14.6.0</node.version>
+        <node.version>v14.15.0</node.version>
 
         <!-- Frontend Configuration -->
         <frontend.path>${main.basedir}</frontend.path>
