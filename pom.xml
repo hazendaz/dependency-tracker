@@ -17,17 +17,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>com.github.hazendaz</groupId>
         <artifactId>base-parent</artifactId>
         <version>26</version>
         <relativePath />
     </parent>
+
+    <groupId>com.github.hazendaz</groupId>
     <artifactId>dependency-tracker</artifactId>
     <packaging>pom</packaging>
+
     <name>dependency-tracker</name>
     <description>Dependency Tracker using Maven Site Version Checks</description>
     <inceptionYear>2011</inceptionYear>
+
+    <scm>
+        <connection>scm:git:ssh://git@github.com/hazendaz/dependency-tracker.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/hazendaz/dependency-tracker.git</developerConnection>
+        <url>https://github.com/hazendaz/dependency-tracker</url>
+        <tag>HEAD</tag>
+    </scm>
+    <distributionManagement>
+        <site>
+            <id>gh-pages</id>
+            <name>Dependency Tracker GitHub Pages</name>
+            <url>github:https://hazendaz.github.io/dependency-tracker/</url>
+        </site>
+    </distributionManagement>
 
     <properties>
         <!-- Dependencies -->
