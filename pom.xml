@@ -27,6 +27,7 @@
 
     <groupId>com.github.hazendaz</groupId>
     <artifactId>dependency-tracker</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>dependency-tracker</name>
