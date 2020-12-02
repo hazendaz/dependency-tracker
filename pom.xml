@@ -738,7 +738,7 @@
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-extra</artifactId>
-            <version>2.4.4</version>
+            <version>3.0.0</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
