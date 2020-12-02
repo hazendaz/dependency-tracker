@@ -434,7 +434,7 @@
         <dependency>
             <groupId>jakarta.ejb</groupId>
             <artifactId>jakarta.ejb-api</artifactId>
-            <version>3.2.6</version>
+            <version>4.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency> <!-- Cannot go to 2.0.0-RC1 because they forgot to release parent -->
