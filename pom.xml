@@ -838,7 +838,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-websocket</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -856,19 +856,19 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-util-scan</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-util</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jni</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -880,25 +880,25 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jaspic-api</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-servlet-api</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jsp-api</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper-el</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -916,25 +916,25 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-storeconfig</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-ssi</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-tribes</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -964,7 +964,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-juli</artifactId>
-            <version>9.0.40</version>
+            <version>10.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
