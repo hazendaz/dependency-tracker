@@ -172,7 +172,7 @@
         <dependency>
             <groupId>org.omnifaces</groupId>
             <artifactId>omnifaces</artifactId>
-            <version>4.0-M4</version>
+            <version>4.0-M6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
