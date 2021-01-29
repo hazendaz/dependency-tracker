@@ -483,7 +483,16 @@
                     <artifactId>c3p0</artifactId>
                     <groupId>c3p0</groupId>
                 </exclusion>
+                <exclusion>
+                    <groupId>com.zaxxer</groupId>
+                    <artifactId>HikariCP-java7</artifactId>
+                </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>4.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
@@ -604,10 +613,10 @@
             <version>1.3.0-alpha5</version>
             <scope>compile</scope>
             <exclusions>
-            	<exclusion>
-            		<groupId>com.sun.mail</groupId>
-            		<artifactId>javax.mail</artifactId>
-            	</exclusion>
+                <exclusion>
+                    <groupId>com.sun.mail</groupId>
+                    <artifactId>javax.mail</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -828,10 +837,10 @@
             <version>5.3</version>
             <scope>compile</scope>
             <exclusions>
-            	<exclusion>
-            		<groupId>commons-logging</groupId>
-            		<artifactId>commons-logging</artifactId>
-            	</exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
