@@ -791,6 +791,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- Seems to have been dropped, research if it was -->
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-extra-api</artifactId>
