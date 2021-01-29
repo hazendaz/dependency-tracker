@@ -169,10 +169,10 @@
             <version>4.6.13.ayg</version>
             <scope>compile</scope>
             <exclusions>
-            	<exclusion>
-            		<groupId>log4j</groupId>
-            		<artifactId>log4j</artifactId>
-            	</exclusion>
+               <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -223,14 +223,14 @@
             <version>3.9.0</version>
             <scope>compile</scope>
             <exclusions>
-            	<exclusion>
-            		<groupId>javax.activation</groupId>
-            		<artifactId>javax.activation-api</artifactId>
-            	</exclusion>
-            	<exclusion>
-            		<groupId>org.glassfish.jaxb</groupId>
-            		<artifactId>jaxb-runtime</artifactId>
-            	</exclusion>
+                <exclusion>
+                    <groupId>javax.activation</groupId>
+                    <artifactId>javax.activation-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.glassfish.jaxb</groupId>
+                    <artifactId>jaxb-runtime</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
