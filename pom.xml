@@ -216,6 +216,12 @@
             <artifactId>ehcache</artifactId>
             <version>3.9.0</version>
             <scope>compile</scope>
+            <exclusions>
+            	<exclusion>
+            		<groupId>javax.activation</groupId>
+            		<artifactId>javax.activation-api</artifactId>
+            	</exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>jakarta.enterprise</groupId>
