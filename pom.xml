@@ -936,7 +936,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper-el</artifactId>
-            <version>10.0.4</version>
+            <version>10.0.5</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
