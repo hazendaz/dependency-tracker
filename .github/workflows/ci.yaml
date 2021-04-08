@@ -23,7 +23,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, macOS-latest, windows-latest]
         java: [8, 11, 16, 17-ea]
-        distribution: 'adopt'
+        distribution: ['adopt']
       fail-fast: false
       max-parallel: 4
     name: Test JDK ${{ matrix.java }}, ${{ matrix.os }}
