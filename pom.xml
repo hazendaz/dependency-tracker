@@ -882,7 +882,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-dbcp</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -978,13 +978,13 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-catalina-ha</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-catalina-ant</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
