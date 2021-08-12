@@ -602,7 +602,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jul-to-slf4j</artifactId>
-            <version>2.0.0-alpha2</version>
+            <version>2.0.0-alpha3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -869,7 +869,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <type>tar.gz</type>
             <scope>compile</scope>
         </dependency>
@@ -900,7 +900,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-util</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -912,7 +912,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-api</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -924,7 +924,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-servlet-api</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -936,7 +936,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jasper-el</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -966,7 +966,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-ssi</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -990,13 +990,13 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-catalina</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-annotations-api</artifactId>
-            <version>10.0.8</version>
+            <version>10.0.10</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
