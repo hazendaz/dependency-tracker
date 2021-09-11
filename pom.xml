@@ -876,7 +876,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-websocket</artifactId>
-            <version>10.0.10</version>
+            <version>10.0.11</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -894,13 +894,13 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-util-scan</artifactId>
-            <version>10.0.10</version>
+            <version>10.0.11</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-util</artifactId>
-            <version>10.0.10</version>
+            <version>10.0.11</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -948,13 +948,13 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-el-api</artifactId>
-            <version>10.0.10</version>
+            <version>10.0.11</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
-            <version>10.0.10</version>
+            <version>10.0.11</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -996,7 +996,7 @@
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-annotations-api</artifactId>
-            <version>10.0.10</version>
+            <version>10.0.11</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
