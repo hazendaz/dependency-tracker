@@ -813,7 +813,7 @@
         <dependency>
             <groupId>com.github.hazendaz</groupId>
             <artifactId>csveed</artifactId>
-            <version>0.7.0</version>
+            <version>0.7.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
