@@ -161,7 +161,7 @@
         <dependency>
             <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces-a4j</artifactId>
-            <version>4.6.14.ayg</version>
+            <version>4.6.16.ayg</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
