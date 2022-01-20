@@ -51,7 +51,7 @@
     <properties>
         <!-- Dependencies -->
         <mockito.version note="Trying to trip up renovate">4.2.0</mockito.version>
-        <tomcat.version>10.0.14</tomcat.version>
+        <tomcat.version>10.0.16</tomcat.version>
 
         <!-- Node Version -->
         <node.version>v14.17.0</node.version>
