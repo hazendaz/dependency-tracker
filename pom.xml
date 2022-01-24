@@ -50,7 +50,7 @@
 
     <properties>
         <!-- Dependencies -->
-        <mockito.version note="Trying to trip up renovate">4.2.0</mockito.version>
+        <mockito.version note="Trying to trip up renovate">4.3.0</mockito.version>
         <tomcat.version>10.0.16</tomcat.version>
 
         <!-- Node Version -->
