@@ -179,7 +179,7 @@
         <dependency>
             <groupId>org.omnifaces</groupId>
             <artifactId>omnifaces</artifactId>
-            <version>3.12</version>
+            <version>3.13</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
