@@ -167,7 +167,7 @@
         <dependency>
             <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces-core</artifactId>
-            <version>4.6.16.ayg</version>
+            <version>4.6.17.ayg</version>
             <scope>compile</scope>
             <exclusions>
                <exclusion>
