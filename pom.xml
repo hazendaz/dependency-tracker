@@ -681,13 +681,13 @@
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.4</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet-core</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.4</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -699,7 +699,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.4</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -715,7 +715,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.4</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -727,7 +727,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.4</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
