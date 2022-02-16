@@ -301,7 +301,7 @@
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se-core</artifactId>
-            <version>4.0.2.Final</version>
+            <version>4.0.3.Final</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
