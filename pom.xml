@@ -537,7 +537,7 @@
         <dependency>
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator-cdi</artifactId>
-            <version>7.0.3.Final</version>
+            <version>7.0.4.Final</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
