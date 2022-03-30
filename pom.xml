@@ -52,6 +52,7 @@
         <!-- Dependencies -->
         <logback.version>1.3.0-alpha14</logback.version>
         <mockito.version note="Trying to trip up renovate">4.4.0</mockito.version>
+        <richfaces.version>4.6.18.ayg</richfaces.version>
         <slf4j.version>2.0.0-alpha7</slf4j.version>
         <tomcat.version>10.0.18</tomcat.version>
 
@@ -157,19 +158,19 @@
         <dependency>
             <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces</artifactId>
-            <version>4.6.18.ayg</version>
+            <version>${richfaces.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces-a4j</artifactId>
-            <version>4.6.18.ayg</version>
+            <version>${richfaces.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.github.albfernandez.richfaces</groupId>
             <artifactId>richfaces-core</artifactId>
-            <version>4.6.18.ayg</version>
+            <version>${richfaces.version}</version>
             <scope>compile</scope>
             <exclusions>
                <exclusion>
