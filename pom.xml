@@ -54,7 +54,7 @@
         <mockito.version note="Trying to trip up renovate">4.4.0</mockito.version>
         <richfaces.version>4.6.19.ayg</richfaces.version>
         <slf4j.version>2.0.0-alpha7</slf4j.version>
-        <tomcat.version>10.0.18</tomcat.version>
+        <tomcat.version>10.0.20</tomcat.version>
 
         <!-- Node Version -->
         <node.version>v14.17.0</node.version>
