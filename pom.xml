@@ -49,6 +49,10 @@
     </distributionManagement>
 
     <properties>
+        <!-- Maven compiler options -->
+        <java.version>11</java.version>
+        <java.release.version>11</java.release.version>
+
         <!-- Dependencies -->
         <logback.version>1.3.0-alpha14</logback.version>
         <mockito.version note="Trying to trip up renovate">4.4.0</mockito.version>
