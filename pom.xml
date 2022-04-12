@@ -356,7 +356,7 @@
         <dependency>
             <groupId>org.apache.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-api</artifactId>
-            <version>1.9.5</version>
+            <version>1.9.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -380,13 +380,13 @@
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jsf-module-api</artifactId>
-            <version>1.9.5</version>
+            <version>1.9.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jsf-module-impl</artifactId>
-            <version>1.9.5</version>
+            <version>1.9.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -398,13 +398,13 @@
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-jpa-module-impl</artifactId>
-            <version>1.9.5</version>
+            <version>1.9.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-data-module-api</artifactId>
-            <version>1.9.5</version>
+            <version>1.9.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -434,7 +434,7 @@
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-partial-bean-module-impl</artifactId>
-            <version>1.9.5</version>
+            <version>1.9.6</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -740,13 +740,13 @@
         <dependency>
             <groupId>org.glassfish.hk2.external</groupId>
             <artifactId>aopalliance-repackaged</artifactId>
-            <version>3.0.2</version>
+            <version>3.0.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.hk2</groupId>
             <artifactId>hk2-api</artifactId>
-            <version>3.0.2</version>
+            <version>3.0.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
