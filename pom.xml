@@ -646,7 +646,7 @@
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
-            <version>3.1.6</version>
+            <version>3.1.7</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
