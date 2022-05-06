@@ -320,7 +320,7 @@
         <dependency>
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet-core</artifactId>
-            <version>5.0.0.Final</version>
+            <version>5.0.0.SP1</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
