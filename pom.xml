@@ -56,6 +56,7 @@
         <!-- Dependencies -->
         <bc.version>1.71</bc.version>
         <deltaspike.version>1.9.6</deltaspike.version>
+        <janino.version>3.1.7</janino.version>
         <logback.version>1.2.11</logback.version>
         <mockito.version note="Trying to trip up renovate">4.5.1</mockito.version>
         <powermock.version>2.0.9</powermock.version>
@@ -652,13 +653,13 @@
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
-            <version>3.1.7</version>
+            <version>${janino.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>commons-compiler</artifactId>
-            <version>3.1.7</version>
+            <version>${janino.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
