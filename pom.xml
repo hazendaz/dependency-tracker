@@ -129,12 +129,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator-annotation-processor</artifactId>
-            <version>7.0.4.Final</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>com.github.hazendaz</groupId>
             <artifactId>htmlcompressor</artifactId>
             <version>1.7.3</version>
@@ -539,6 +533,12 @@
             <artifactId>jakarta.persistence</artifactId>
             <version>2.2.3</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator-annotation-processor</artifactId>
+            <version>7.0.4.Final</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.hibernate.validator</groupId>
