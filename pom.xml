@@ -61,6 +61,7 @@
         <jersey.version>3.0.4</jersey.version>
         <jna.version>5.11.0</jna.version>
         <logback.version>1.2.11</logback.version>
+        <metro.version>3.0.3</metro.version>
         <mockito.version note="Trying to trip up renovate">4.5.1</mockito.version>
         <powermock.version>2.0.9</powermock.version>
         <richfaces.version>4.6.19.ayg</richfaces.version>
@@ -780,13 +781,13 @@
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-api</artifactId>
-            <version>3.0.3</version>
+            <version>${metro.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-extra</artifactId>
-            <version>3.0.3</version>
+            <version>${metro.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -803,23 +804,16 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- Seems to have been dropped, research if it was -->
-        <dependency>
-            <groupId>org.glassfish.metro</groupId>
-            <artifactId>webservices-extra-api</artifactId>
-            <version>2.4.8</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-rt</artifactId>
-            <version>3.0.3</version>
+            <version>${metro.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-tools</artifactId>
-            <version>3.0.3</version>
+            <version>${metro.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
