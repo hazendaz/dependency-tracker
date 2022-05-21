@@ -57,6 +57,7 @@
         <bc.version>1.71</bc.version>
         <deltaspike.version>1.9.6</deltaspike.version>
         <janino.version>3.1.7</janino.version>
+        <jna.version>5.11.0</jna.version>
         <logback.version>1.2.11</logback.version>
         <mockito.version note="Trying to trip up renovate">4.5.1</mockito.version>
         <powermock.version>2.0.9</powermock.version>
@@ -665,13 +666,13 @@
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna</artifactId>
-            <version>5.11.0</version>
+            <version>${jna.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna-platform</artifactId>
-            <version>5.11.0</version>
+            <version>${jna.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
