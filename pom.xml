@@ -57,6 +57,7 @@
         <bc.version>1.71</bc.version>
         <deltaspike.version>1.9.6</deltaspike.version>
         <janino.version>3.1.7</janino.version>
+        <jersey.version>3.0.4</jersey.version>
         <jna.version>5.11.0</jna.version>
         <logback.version>1.2.11</logback.version>
         <mockito.version note="Trying to trip up renovate">4.5.1</mockito.version>
@@ -690,13 +691,13 @@
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet</artifactId>
-            <version>3.0.4</version>
+            <version>${jersey.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet-core</artifactId>
-            <version>3.0.4</version>
+            <version>${jersey.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -708,7 +709,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>3.0.4</version>
+            <version>${jersey.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -724,7 +725,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
-            <version>3.0.4</version>
+            <version>${jersey.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -736,7 +737,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
-            <version>3.0.4</version>
+            <version>${jersey.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
