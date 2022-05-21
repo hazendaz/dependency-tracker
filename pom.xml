@@ -61,6 +61,7 @@
         <powermock.version>2.0.9</powermock.version>
         <richfaces.version>4.6.19.ayg</richfaces.version>
         <slf4j.version>1.7.36</slf4j.version>
+        <swingx.version>1.6.5-1</swingx.version>
         <tomcat.version>10.0.21</tomcat.version>
         <weld-api.version>5.0.Final</weld-api.version>
         <weld-impl.version>5.0.0.SP1</weld-impl.version>
@@ -567,43 +568,43 @@
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-action</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-autocomplete</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-common</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-core</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-graphics</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-painters</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>
             <artifactId>swingx-plaf</artifactId>
-            <version>1.6.5-1</version>
+            <version>${swingx.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
