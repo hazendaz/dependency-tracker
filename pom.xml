@@ -62,7 +62,7 @@
         <richfaces.version>4.6.19.ayg</richfaces.version>
         <slf4j.version>1.7.36</slf4j.version>
         <tomcat.version>10.0.21</tomcat.version>
-        <weld.version>5.0.0.SP1</weld.version>
+        <weld-impl.version>5.0.0.SP1</weld-impl.version>
 
         <!-- Node Version -->
         <node.version>v17.7.1</node.version>
@@ -290,7 +290,7 @@
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core-impl</artifactId>
-            <version>${weld.version}</version>
+            <version>${weld-impl.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -306,13 +306,13 @@
         <dependency>
             <groupId>org.jboss.weld.module</groupId>
             <artifactId>weld-jsf</artifactId>
-            <version>${weld.version}</version>
+            <version>${weld-impl.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se-core</artifactId>
-            <version>${weld.version}</version>
+            <version>${weld-impl.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -324,7 +324,7 @@
         <dependency>
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet-core</artifactId>
-            <version>${weld.version}</version>
+            <version>${weld-impl.version}</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
