@@ -69,7 +69,7 @@
         <swingx.version>1.6.5-1</swingx.version>
         <tomcat.version>10.0.21</tomcat.version>
         <weld-api.version>5.0.Final</weld-api.version>
-        <weld-impl.version>5.0.0.SP1</weld-impl.version>
+        <weld-impl.version>5.0.0.SP2</weld-impl.version>
 
         <!-- Node Version -->
         <node.version>v17.7.1</node.version>
