@@ -64,7 +64,7 @@
         <metro.version>4.0.1</metro.version>
         <mockito.version note="Trying to trip up renovate">4.7.0</mockito.version>
         <powermock.version>2.0.9</powermock.version>
-        <richfaces.version>4.6.19.ayg</richfaces.version>
+        <richfaces.version>4.6.20.ayg</richfaces.version>
         <slf4j.version>2.0.0</slf4j.version>
         <swingx.version>1.6.5-1</swingx.version>
         <tomcat.version>10.0.23</tomcat.version>
