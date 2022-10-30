@@ -210,13 +210,13 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcpg-jdk18on</artifactId>
-            <version>${bc.version}</version>
+            <version>${bc.patch.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk18on</artifactId>
-            <version>${bc.patch.version}</version>
+            <version>${bc.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
