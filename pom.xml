@@ -55,6 +55,7 @@
 
         <!-- Dependencies -->
         <bc.version>1.72</bc.version>
+        <bc.patch.version>1.72.1</bc.patch.version>
         <deltaspike.version>1.9.6</deltaspike.version>
         <hk2.version>3.0.3</hk2.version>
         <janino.version>3.1.8</janino.version>
@@ -215,7 +216,7 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk18on</artifactId>
-            <version>${bc.version}</version>
+            <version>${bc.patch.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
