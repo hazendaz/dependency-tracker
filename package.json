@@ -3,6 +3,6 @@
     "version": "32.159.0",
     "private": true,
     "devDependencies": {
-        "renovate": "34.97.5"
+        "renovate": "34.100.1"
     }
 }
