@@ -59,7 +59,7 @@
         <deltaspike.version>1.9.6</deltaspike.version>
         <hk2.version>3.0.3</hk2.version>
         <janino.version>3.1.9</janino.version>
-        <jersey.version>3.1.0</jersey.version>
+        <jersey.version>3.1.1</jersey.version>
         <jna.version>5.13.0</jna.version>
         <logback.version>1.4.5</logback.version>
         <metro.version>4.0.1</metro.version>
