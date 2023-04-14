@@ -54,7 +54,7 @@
         <java.release.version>17</java.release.version>
 
         <!-- Dependencies -->
-        <bc.version>1.72</bc.version>
+        <bc.version>1.73</bc.version>
         <bc.patch.version>1.73</bc.patch.version>
         <deltaspike.version>1.9.6</deltaspike.version>
         <hk2.version>3.0.4</hk2.version>
