@@ -562,7 +562,7 @@
         <dependency>
             <groupId>org.jboss.logging</groupId>
             <artifactId>jboss-logging</artifactId>
-            <version>3.5.2.Final</version>
+            <version>3.5.3.Final</version>
             <scope>compile</scope>
         </dependency>
          <dependency>
