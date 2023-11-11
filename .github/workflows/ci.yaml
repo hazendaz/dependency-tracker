@@ -1,39 +1,25 @@
-#
-# dependency-tracker (https://github.com/hazendaz/dependency-tracker)
-#
-# Copyright 2011-2021 Hazendaz.
-#
-# All rights reserved. This program and the accompanying materials
-# are made available under the terms of The Apache Software License,
-# Version 2.0 which accompanies this distribution, and is available at
-# https://www.apache.org/licenses/LICENSE-2.0.txt
-#
-# Contributors:
-#     Hazendaz (Jeremy Landis).
-#
-
 name: Java CI
 
-on: [push, pull_request]
+on: [workflow_dispatch, push, pull_request]
 
 jobs:
   test:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, macOS-latest, windows-latest]
+        os: [ubuntu-latest, macos-latest, windows-latest]
         java: [21]
-        distribution: ['zulu']
+        distribution: ['temurin']
       fail-fast: false
       max-parallel: 4
     name: Test JDK ${{ matrix.java }}, ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v4
-      - name: Set up JDK
+      - name: Set up JDK ${{ matrix.java }} ${{ matrix.distribution }}
         uses: actions/setup-java@v3
         with:
           java-version: ${{ matrix.java }}
           distribution: ${{ matrix.distribution }}
       - name: Test with Maven
-        run: ./mvnw test -B
+        run: ./mvnw test -B -V --no-transfer-progress -D"license.skip=true"
