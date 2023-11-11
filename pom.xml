@@ -14,8 +14,7 @@
         Hazendaz (Jeremy Landis).
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -37,8 +36,8 @@
     <scm>
         <connection>scm:git:ssh://git@github.com/hazendaz/dependency-tracker.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/dependency-tracker.git</developerConnection>
-        <url>https://github.com/hazendaz/dependency-tracker</url>
         <tag>HEAD</tag>
+        <url>https://github.com/hazendaz/dependency-tracker</url>
     </scm>
     <distributionManagement>
         <site>
@@ -183,7 +182,7 @@
             <version>${richfaces.version}</version>
             <scope>compile</scope>
             <exclusions>
-               <exclusion>
+                <exclusion>
                     <groupId>ch.qos.reload4j</groupId>
                     <artifactId>reload4j</artifactId>
                 </exclusion>
@@ -296,12 +295,12 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>jboss-el-api_3.0_spec</artifactId>
                     <groupId>org.jboss.spec.javax.el</groupId>
+                    <artifactId>jboss-el-api_3.0_spec</artifactId>
                 </exclusion>
                 <exclusion>
-                    <artifactId>jboss-annotations-api_1.2_spec</artifactId>
                     <groupId>org.jboss.spec.javax.annotation</groupId>
+                    <artifactId>jboss-annotations-api_1.2_spec</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -318,8 +317,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>jboss-annotations-api_1.2_spec</artifactId>
                     <groupId>org.jboss.spec.javax.annotation</groupId>
+                    <artifactId>jboss-annotations-api_1.2_spec</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -330,8 +329,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>jboss-el-api_3.0_spec</artifactId>
                     <groupId>org.jboss.spec.javax.el</groupId>
+                    <artifactId>jboss-el-api_3.0_spec</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -498,8 +497,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>ehcache-core</artifactId>
                     <groupId>net.sf.ehcache</groupId>
+                    <artifactId>ehcache-core</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -510,8 +509,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>c3p0</artifactId>
                     <groupId>c3p0</groupId>
+                    <artifactId>c3p0</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>com.zaxxer</groupId>
@@ -565,7 +564,7 @@
             <version>3.5.3.Final</version>
             <scope>compile</scope>
         </dependency>
-         <dependency>
+        <dependency>
             <groupId>com.fasterxml</groupId>
             <artifactId>classmate</artifactId>
             <version>1.6.0</version>
@@ -704,8 +703,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>javax.inject</artifactId>
                     <groupId>org.glassfish.hk2.external</groupId>
+                    <artifactId>javax.inject</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -716,12 +715,12 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>javax.inject</artifactId>
                     <groupId>org.glassfish.hk2.external</groupId>
+                    <artifactId>javax.inject</artifactId>
                 </exclusion>
                 <exclusion>
-                    <artifactId>osgi-resource-locator</artifactId>
                     <groupId>org.glassfish.hk2</groupId>
+                    <artifactId>osgi-resource-locator</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -732,8 +731,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>javax.inject</artifactId>
                     <groupId>org.glassfish.hk2.external</groupId>
+                    <artifactId>javax.inject</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -744,8 +743,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>javax.inject</artifactId>
                     <groupId>org.glassfish.hk2.external</groupId>
+                    <artifactId>javax.inject</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -768,8 +767,8 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
-                    <artifactId>javax.inject</artifactId>
                     <groupId>org.glassfish.hk2.external</groupId>
+                    <artifactId>javax.inject</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -792,16 +791,16 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
+                    <groupId>com.sun.commons</groupId>
                     <artifactId>logging-api</artifactId>
-                    <groupId>com.sun.commons</groupId>
                 </exclusion>
                 <exclusion>
+                    <groupId>com.sun.commons</groupId>
                     <artifactId>beanutils</artifactId>
-                    <groupId>com.sun.commons</groupId>
                 </exclusion>
                 <exclusion>
-                    <artifactId>modeler</artifactId>
                     <groupId>com.sun.commons</groupId>
+                    <artifactId>modeler</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -833,8 +832,8 @@
             <groupId>org.apache.groovy</groupId>
             <artifactId>groovy-all</artifactId>
             <version>4.0.15</version>
-            <scope>compile</scope>
             <type>pom</type>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -1093,37 +1092,37 @@
             <groupId>jakarta.xml.rpc</groupId>
             <artifactId>jakarta.xml.rpc-api</artifactId>
             <version>1.1.4</version>
-             <scope>compile</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>jakarta.mail</groupId>
             <artifactId>jakarta.mail-api</artifactId>
             <version>2.1.2</version>
-             <scope>compile</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>jakarta.json</artifactId>
             <version>2.0.1</version>
-             <scope>compile</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.sun.activation</groupId>
             <artifactId>jakarta.activation</artifactId>
             <version>2.0.1</version>
-             <scope>compile</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
-             <scope>compile</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp</artifactId>
             <version>3.0.0</version>
-             <scope>compile</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.ow2.asm</groupId>
