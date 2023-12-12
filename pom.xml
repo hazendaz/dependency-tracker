@@ -59,7 +59,7 @@
         <hk2.version>3.0.5</hk2.version>
         <janino.version>3.1.11</janino.version>
         <jersey.version>3.1.5</jersey.version>
-        <jna.version>5.13.0</jna.version>
+        <jna.version>5.14.0</jna.version>
         <logback.version>1.4.14</logback.version>
         <metro.version>4.0.3</metro.version>
         <mockito.version note="Trying to trip up renovate">5.8.0</mockito.version>
