@@ -434,7 +434,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
-            <artifactId>deltaspike-schedular-module-api</artifactId>
+            <artifactId>deltaspike-scheduler-module-api</artifactId>
             <version>${deltaspike.version}</version>
             <scope>compile</scope>
         </dependency>
