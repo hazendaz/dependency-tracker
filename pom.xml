@@ -763,33 +763,7 @@
         </dependency>
         <dependency>
             <groupId>org.glassfish.metro</groupId>
-            <artifactId>webservices-extra</artifactId>
-            <version>${metro.version}</version>
-            <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.sun.commons</groupId>
-                    <artifactId>logging-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.sun.commons</groupId>
-                    <artifactId>beanutils</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.sun.commons</groupId>
-                    <artifactId>modeler</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-rt</artifactId>
-            <version>${metro.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.metro</groupId>
-            <artifactId>webservices-tools</artifactId>
             <version>${metro.version}</version>
             <scope>compile</scope>
         </dependency>
