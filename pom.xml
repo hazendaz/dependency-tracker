@@ -422,6 +422,18 @@
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
+            <artifactId>deltaspike-schedular-module-api</artifactId>
+            <version>${deltaspike.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.deltaspike.modules</groupId>
+            <artifactId>deltaspike-scheduler-module-impl</artifactId>
+            <version>${deltaspike.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-security-module-api</artifactId>
             <version>${deltaspike.version}</version>
             <scope>compile</scope>
