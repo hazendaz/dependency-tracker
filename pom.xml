@@ -678,12 +678,6 @@
             <artifactId>jersey-container-servlet-core</artifactId>
             <version>${jersey.version}</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.glassfish.hk2.external</groupId>
-                    <artifactId>javax.inject</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
@@ -691,10 +685,6 @@
             <version>${jersey.version}</version>
             <scope>compile</scope>
             <exclusions>
-                <exclusion>
-                    <groupId>org.glassfish.hk2.external</groupId>
-                    <artifactId>javax.inject</artifactId>
-                </exclusion>
                 <exclusion>
                     <groupId>org.glassfish.hk2</groupId>
                     <artifactId>osgi-resource-locator</artifactId>
@@ -706,24 +696,12 @@
             <artifactId>jersey-client</artifactId>
             <version>${jersey.version}</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.glassfish.hk2.external</groupId>
-                    <artifactId>javax.inject</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-server</artifactId>
             <version>${jersey.version}</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.glassfish.hk2.external</groupId>
-                    <artifactId>javax.inject</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.glassfish.hk2.external</groupId>
@@ -742,12 +720,6 @@
             <artifactId>hk2-locator</artifactId>
             <version>${hk2.version}</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.glassfish.hk2.external</groupId>
-                    <artifactId>javax.inject</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.glassfish.hk2</groupId>
