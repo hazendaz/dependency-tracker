@@ -420,18 +420,6 @@
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
-            <artifactId>deltaspike-servlet-module-api</artifactId>
-            <version>${deltaspike.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.deltaspike.modules</groupId>
-            <artifactId>deltaspike-servlet-module-impl</artifactId>
-            <version>${deltaspike.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-partial-bean-module-api</artifactId>
             <version>${deltaspike.version}</version>
             <scope>compile</scope>
