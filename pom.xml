@@ -347,7 +347,7 @@
             <scope>compile</scope>
         </dependency>
 
-        <!- Deltaspike -->
+        <!-- Deltaspike -->
         <dependency>
             <groupId>org.apache.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-api</artifactId>
