@@ -395,6 +395,13 @@
             <artifactId>deltaspike-jsf-module-impl</artifactId>
             <version>${deltaspike.version}</version>
             <scope>compile</scope>
+            <!-- Exclude test library that should not be in build -->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.seleniumhq.selenium</groupId>
+                    <artifactId>htmlunit3-driver</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
