@@ -431,18 +431,6 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.deltaspike.modules</groupId>
-            <artifactId>deltaspike-bean-validation-module-api</artifactId>
-            <version>${deltaspike.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.deltaspike.modules</groupId>
-            <artifactId>deltaspike-bean-validation-module-impl</artifactId>
-            <version>${deltaspike.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>6.0.0</version>
