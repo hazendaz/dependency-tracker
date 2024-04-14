@@ -53,8 +53,7 @@
         <java.release.version>17</java.release.version>
 
         <!-- Dependencies -->
-        <bc.version>1.78</bc.version>
-        <bc.patch.version>1.78</bc.patch.version>
+        <bc.version>2.73.6</bc.version>
         <deltaspike.version>2.0.0</deltaspike.version>
         <hk2.version>3.1.0</hk2.version>
         <janino.version>3.1.12</janino.version>
@@ -208,13 +207,13 @@
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
-            <artifactId>bcpg-jdk18on</artifactId>
-            <version>${bc.patch.version}</version>
+            <artifactId>bcpg-lts8on</artifactId>
+            <version>${bc.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk18on</artifactId>
+            <artifactId>bcprov-lts8on</artifactId>
             <version>${bc.version}</version>
             <scope>compile</scope>
         </dependency>
