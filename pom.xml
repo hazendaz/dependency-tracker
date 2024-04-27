@@ -49,8 +49,8 @@
 
     <properties>
         <!-- Maven compiler options -->
-        <java.version>17</java.version>
-        <java.release.version>17</java.release.version>
+        <java.version>21</java.version>
+        <java.release.version>21</java.release.version>
 
         <!-- Dependencies -->
         <bc.version>2.73.6</bc.version>
