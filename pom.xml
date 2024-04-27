@@ -66,7 +66,7 @@
         <richfaces.version>4.6.21.ayg</richfaces.version>
         <slf4j.version>2.0.13</slf4j.version>
         <swingx.version>1.6.5-1</swingx.version>
-        <tomcat.version>10.1.20</tomcat.version>
+        <tomcat.version>10.1.23</tomcat.version>
         <weld-api.version>5.0.SP3</weld-api.version>
         <weld-impl.version>5.1.2.Final</weld-impl.version>
 
@@ -1056,6 +1056,20 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <configuration>
+                    <rules>
+                        <enforceBytecodeVersion>
+                            <excludes>
+                                <!-- Openssl contains panama for jdk 22 or higher if enabled via listener 'org.apache.catalina.core.OpenSSLLifecycleListener' -->
+                                <exclude>org.apache.tomcat:tomcat-coyote</exclude>
+                            </excludes>
+                        </enforceBytecodeVersion>
+                    </rules>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
