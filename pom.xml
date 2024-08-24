@@ -743,7 +743,7 @@
         <dependency>
             <groupId>org.csveed</groupId>
             <artifactId>csveed</artifactId>
-            <version>0.8.1</version>
+            <version>0.8.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
