@@ -1,6 +1,6 @@
 {
     "name": "renovate",
-    "version": "32.159.0",
+    "version": "32.235.3",
     "private": true,
     "devDependencies": {
         "renovate": "39.236.0"
