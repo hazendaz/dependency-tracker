@@ -82,11 +82,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.deltaspike.ditribution</groupId>
+                <groupId>org.apache.deltaspike.distribution</groupId>
                 <artifactId>distributions-bom</artifactId>
                 <version>${deltaspike.version}</version>
-                <scope>import</scope>
                 <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
