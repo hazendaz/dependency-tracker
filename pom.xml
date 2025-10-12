@@ -54,6 +54,7 @@
         <java.release.version>21</java.release.version>
 
         <!-- Dependencies -->
+        <asm.version>9.9</asm.version>
         <bc.version>2.73.9</bc.version>
         <deltaspike.version>2.0.1</deltaspike.version>
         <groovy.version>5.0.1</groovy.version>
@@ -101,6 +102,13 @@
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
                 <version>${junit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.ow2.asm</groupId>
+                <artifactId>asm-bom</artifactId>
+                <version>${asm.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -1047,7 +1055,6 @@
         <dependency>
             <groupId>org.ow2.asm</groupId>
             <artifactId>asm</artifactId>
-            <version>9.9</version>
         </dependency>
         <dependency>
             <groupId>commons-logging</groupId>
