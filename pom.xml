@@ -1035,9 +1035,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.sun.activation</groupId>
-            <artifactId>jakarta.activation</artifactId>
-            <version>2.0.1</version>
+            <groupId>org.eclipse.angus</groupId>
+            <artifactId>angus-activation</artifactId>
+            <version>2.0.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
