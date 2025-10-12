@@ -56,6 +56,7 @@
         <!-- Dependencies -->
         <bc.version>2.73.9</bc.version>
         <deltaspike.version>2.0.1</deltaspike.version>
+        <groovy.version>5.0.1</groovy.version>
         <hk2.version>3.1.1</hk2.version>
         <janino.version>3.1.12</janino.version>
         <jersey.version>3.1.11</jersey.version>
@@ -86,6 +87,13 @@
                 <groupId>org.apache.deltaspike.distribution</groupId>
                 <artifactId>distributions-bom</artifactId>
                 <version>${deltaspike.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.groovy</groupId>
+                <artifactId>groovy-bom</artifactId>
+                <version>${groovy.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -738,7 +746,6 @@
         <dependency>
             <groupId>org.apache.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>5.0.1</version>
             <type>pom</type>
             <scope>compile</scope>
         </dependency>
