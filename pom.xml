@@ -59,6 +59,7 @@
         <deltaspike.version>2.0.1</deltaspike.version>
         <groovy.version>5.0.1</groovy.version>
         <hk2.version>3.1.1</hk2.version>
+        <jackson.version>2.20.0</jackson.version>
         <janino.version>3.1.12</janino.version>
         <jersey.version>3.1.11</jersey.version>
         <jna.version>5.18.1</jna.version>
@@ -83,6 +84,13 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${jackson.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>org.apache.deltaspike.distribution</groupId>
                 <artifactId>distributions-bom</artifactId>
@@ -753,7 +761,6 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.20.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
