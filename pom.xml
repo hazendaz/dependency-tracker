@@ -60,6 +60,7 @@
         <janino.version>3.1.12</janino.version>
         <jersey.version>3.1.11</jersey.version>
         <jna.version>5.18.1</jna.version>
+        <junit.version>6.0.0</junit.version>
         <logback.version>1.5.19</logback.version>
         <metro.version>4.0.4</metro.version>
         <mockito.version>5.20.0</mockito.version>
@@ -88,6 +89,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -95,7 +103,6 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>6.0.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
