@@ -80,6 +80,9 @@
         <!-- Frontend Configuration -->
         <frontend.path>${main.basedir}</frontend.path>
         <node.path>${main.basedir}</node.path>
+
+        <!-- Downgrade to java 21 as nothing newer supported yet. -->
+        <impsort.javaParserLanguageLevel>JAVA_21</impsort.javaParserLanguageLevel>
     </properties>
 
     <dependencyManagement>
