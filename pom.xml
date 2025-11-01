@@ -63,7 +63,7 @@
         <janino.version>3.1.12</janino.version>
         <jersey.version>3.1.11</jersey.version>
         <jna.version>5.18.1</jna.version>
-        <junit.version>6.0.0</junit.version>
+        <junit.version>6.0.1</junit.version>
         <logback.version>1.5.20</logback.version>
         <metro.version>4.0.4</metro.version>
         <mockito.version>5.20.0</mockito.version>
