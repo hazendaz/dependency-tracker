@@ -61,7 +61,7 @@
         <hk2.version>3.1.1</hk2.version>
         <jackson.version>2.20.1</jackson.version>
         <janino.version>3.1.12</janino.version>
-        <jersey.version>3.1.11</jersey.version>
+        <jersey.version>4.0.0</jersey.version>
         <jna.version>5.18.1</jna.version>
         <junit.version>6.0.1</junit.version>
         <logback.version>1.5.20</logback.version>
