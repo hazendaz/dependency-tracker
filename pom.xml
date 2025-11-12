@@ -325,7 +325,7 @@
         <dependency>
             <groupId>io.smallrye</groupId>
             <artifactId>jandex</artifactId>
-            <version>3.5.1</version>
+            <version>3.5.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
