@@ -72,7 +72,7 @@
         <slf4j.version>2.0.17</slf4j.version>
         <tomcat.version>11.0.15</tomcat.version>
         <weld-api.version>6.0.Final</weld-api.version>
-        <weld-impl.version>6.0.3.Final</weld-impl.version>
+        <weld-impl.version>6.0.4.Final</weld-impl.version>
 
         <!-- Node Version -->
         <node.version>v22.13.1</node.version>
