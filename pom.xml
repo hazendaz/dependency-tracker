@@ -64,7 +64,7 @@
         <jersey.version>4.0.0</jersey.version>
         <jna.version>5.18.1</jna.version>
         <junit.version>6.0.2</junit.version>
-        <logback.version>1.5.24</logback.version>
+        <logback.version>1.5.25</logback.version>
         <metro.version>4.0.4</metro.version>
         <mockito.version>5.21.0</mockito.version>
         <powermock.version>2.0.9</powermock.version>
