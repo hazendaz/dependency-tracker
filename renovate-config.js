@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: Apache-2.0
  * See LICENSE file for details.
  *
- * Copyright 2011-2020 Hazendaz
+ * Copyright 2011-2026 Hazendaz
  */
 module.exports = {
     baseBranches: ['master'],
