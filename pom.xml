@@ -226,7 +226,7 @@
         <dependency>
             <groupId>org.omnifaces</groupId>
             <artifactId>omnifaces</artifactId>
-            <version>5.0</version>
+            <version>5.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
