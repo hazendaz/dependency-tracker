@@ -131,6 +131,27 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- Jakarta JSP API -->
+            <dependency>
+                <groupId>jakarta.servlet.jsp</groupId>
+                <artifactId>jakarta.servlet.jsp-api</artifactId>
+                <version>4.0.0</version>
+            </dependency>
+    
+            <!-- Checker Framework -->
+            <dependency>
+                <groupId>org.checkerframework</groupId>
+                <artifactId>checker-qual</artifactId>
+                <version>3.54.0</version>
+            </dependency>
+    
+            <!-- Guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>33.5.0-jre</version>
+            </dependency>
+            
             <!-- SLF4J API -->
             <dependency>
                 <groupId>org.slf4j</groupId>
