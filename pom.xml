@@ -151,6 +151,20 @@
                 <artifactId>guava</artifactId>
                 <version>33.5.0-jre</version>
             </dependency>
+
+            <!-- Jakarta Activation -->
+            <dependency>
+                <groupId>jakarta.activation</groupId>
+                <artifactId>jakarta.activation-api</artifactId>
+                <version>2.1.4</version>
+            </dependency>
+    
+            <!-- Commons Lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.20.0</version>
+            </dependency>
             
             <!-- SLF4J API -->
             <dependency>
