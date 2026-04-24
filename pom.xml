@@ -698,7 +698,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-swing</artifactId>
-            <version>27-ea+13</version>
+            <version>27-ea+14</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
