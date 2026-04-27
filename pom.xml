@@ -338,7 +338,7 @@
         <dependency>
             <groupId>org.omnifaces</groupId>
             <artifactId>omnifaces</artifactId>
-            <version>5.3.2</version>
+            <version>5.3.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
