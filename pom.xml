@@ -56,7 +56,7 @@
 
         <!-- Dependencies -->
         <asm.version>9.9.1</asm.version>
-        <bc.version>2.73.10</bc.version>
+        <bc.version>2.73.11</bc.version>
         <deltaspike.version>2.0.1</deltaspike.version>
         <groovy.version>5.0.6</groovy.version>
         <hk2.version>4.0.1</hk2.version>
