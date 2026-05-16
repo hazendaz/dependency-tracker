@@ -70,7 +70,7 @@
         <mockito.version>5.23.0</mockito.version>
         <powermock.version>2.0.9</powermock.version>
         <richfaces.version>4.6.21.ayg</richfaces.version>
-        <slf4j.version>2.0.17</slf4j.version>
+        <slf4j.version>2.0.18</slf4j.version>
         <tomcat.version>11.0.22</tomcat.version>
         <weld-api.version>6.0.Final</weld-api.version>
         <weld-impl.version>6.0.4.Final</weld-impl.version>
@@ -127,6 +127,13 @@
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-bom</artifactId>
                 <version>${asm.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-bom</artifactId>
+                <version>${slf4j.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -236,11 +243,6 @@
                 <groupId>org.jboss.logging</groupId>
                 <artifactId>jboss-logging</artifactId>
                 <version>3.6.3.Final</version>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-api</artifactId>
-                <version>2.0.17</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -709,25 +711,21 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jul-to-slf4j</artifactId>
-            <version>${slf4j.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
-            <version>${slf4j.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-ext</artifactId>
-            <version>${slf4j.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
