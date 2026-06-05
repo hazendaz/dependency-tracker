@@ -66,7 +66,7 @@
         <jna.version>5.19.0</jna.version>
         <junit.version>6.1.0</junit.version>
         <logback.version>1.5.34</logback.version>
-        <metro.version>4.0.6</metro.version>
+        <metro.version>4.0.7</metro.version>
         <mockito.version>5.23.0</mockito.version>
         <powermock.version>2.0.9</powermock.version>
         <richfaces.version>4.6.21.ayg</richfaces.version>
