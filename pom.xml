@@ -181,7 +181,7 @@
             <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
-                <version>1.3.6</version>
+                <version>1.4.0</version>
             </dependency>
             <dependency>
                 <groupId>jakarta.activation</groupId>
@@ -1236,7 +1236,7 @@
         <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
-            <version>1.3.6</version>
+            <version>1.4.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
