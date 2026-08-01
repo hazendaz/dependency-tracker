@@ -86,8 +86,8 @@
     </properties>
 
     <dependencyManagement>
-        <dependencies>    
-            <dependency>    
+        <dependencies>
+            <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bc-lts8on-bom</artifactId>
                 <version>${bc.version}</version>
