@@ -78,7 +78,7 @@
         <weld-impl.version>6.0.4.Final</weld-impl.version>
 
         <!-- Node Version -->
-        <node.version>v24.11.1</node.version>
+        <node.version>v24.16.0</node.version>
 
         <!-- Frontend Configuration -->
         <frontend.path>${main.basedir}</frontend.path>
