@@ -351,7 +351,7 @@
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>jakarta.faces</artifactId>
-            <version>4.1.14</version>
+            <version>4.1.15</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
