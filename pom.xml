@@ -55,7 +55,7 @@
         <java.release.version>25</java.release.version>
 
         <!-- Dependencies -->
-        <ant.version>1.10.17</ant.version>
+        <ant.version>1.10.18</ant.version>
         <asm.version>9.10.1</asm.version>
         <bc.version>2.73.12.1</bc.version>
         <deltaspike.version>2.0.1</deltaspike.version>
