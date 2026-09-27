@@ -809,15 +809,9 @@
         </dependency>
         <dependency>
             <groupId>com.github.waffle</groupId>
-            <artifactId>waffle-jna</artifactId>
-            <version>3.6.0</version>
+            <artifactId>waffle-jna-jakarta</artifactId>
+            <version>3.7.0</version>
             <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>jcl-over-slf4j</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>jakarta.ws.rs</groupId>
