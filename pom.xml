@@ -906,6 +906,10 @@
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
+                    <groupId>org.apache.groovy</groupId>
+                    <artifactId>groovy-grape-maven</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>org.slf4j</groupId>
                     <artifactId>jcl-over-slf4j</artifactId>
                 </exclusion>
