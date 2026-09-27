@@ -54,6 +54,9 @@
         <java.version>25</java.version>
         <java.release.version>25</java.release.version>
 
+        <!-- Automatic Module Name -->
+        <module.name>com.github.hazendaz.dependency.tracker</module.name>
+
         <!-- Dependencies -->
         <ant.version>1.10.18</ant.version>
         <asm.version>9.10.1</asm.version>
@@ -83,6 +86,7 @@
         <!-- Frontend Configuration -->
         <frontend.path>${main.basedir}</frontend.path>
         <node.path>${main.basedir}</node.path>
+        <npm.nosave>--no-save</npm.nosave>
     </properties>
 
     <dependencyManagement>
@@ -1254,20 +1258,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-enforcer-plugin</artifactId>
-                <configuration>
-                    <rules>
-                        <enforceBytecodeVersion>
-                            <excludes>
-                                <!-- Openssl contains panama for jdk 22 or higher if enabled via listener 'org.apache.catalina.core.OpenSSLLifecycleListener' -->
-                                <exclude>org.apache.tomcat:tomcat-coyote</exclude>
-                            </excludes>
-                        </enforceBytecodeVersion>
-                    </rules>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
                 <configuration>
@@ -1285,7 +1275,7 @@
                     </execution>
 
                     <execution>
-                        <id>clean cache</id>
+                        <id>npm clean cache</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
@@ -1300,11 +1290,53 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install -g renovate</arguments>
+                            <arguments>install -g renovate ${npm.nosave}</arguments>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>npm-no-save</id>
+            <activation>
+                <os>
+                    <family>Windows</family>
+                </os>
+            </activation>
+            <properties>
+                <npm.nosave />
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-clean-plugin</artifactId>
+                        <configuration>
+                            <filesets>
+                                <!-- Retain target folder from parent -->
+                                <fileset>
+                                    <directory>${project.build.directory}</directory>
+                                    <includes>
+                                        <include>**/*</include>
+                                    </includes>
+                                </fileset>
+                                <!-- Delete node items for clean build -->
+                                <fileset>
+                                    <directory>${project.basedir}</directory>
+                                    <includes>
+                                        <include>node/**</include>
+                                        <include>node_modules/**</include>
+                                        <include>package-lock.json</include>
+                                    </includes>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
