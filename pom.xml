@@ -77,7 +77,7 @@
         <snakeyaml.version>2.7</snakeyaml.version>
         <slf4j.version>2.0.20</slf4j.version>
         <tomcat.version>11.0.26</tomcat.version>
-        <weld-api.version>6.0.Final</weld-api.version>
+        <weld-api.version>7.0.Final</weld-api.version>
         <weld-impl.version>7.0.0.Final</weld-impl.version>
 
         <!-- Node Version -->
