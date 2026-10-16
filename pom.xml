@@ -1294,7 +1294,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>install -g renovate ${npm.nosave}</arguments>
+                            <arguments>install renovate ${npm.nosave}</arguments>
                         </configuration>
                     </execution>
                 </executions>
