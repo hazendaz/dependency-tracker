@@ -66,11 +66,11 @@
   }, {
     "groupId" : "com.fasterxml",
     "artifactId" : "classmate",
-    "version" : "1.7.3",
+    "version" : "1.8.0",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:QTIB5YKWC4PogaSGQPar4dC2E7r9J08BqWYAce1D43P5NJndFWI0iBNqZt7/mpsYox3+OCqivLCCL1X33CPEjA=="
+    "integrity" : "sha512:ehtgGcWcRsI/GlpePP9AKwyFjUhbSTtjGNL8/nrigl1Bw2OGEQ48iPQqpPVNWK1T7YiscdCDX+7YK5/xVAVjyg=="
   }, {
     "groupId" : "com.formdev",
     "artifactId" : "flatlaf-extras",
@@ -138,11 +138,11 @@
   }, {
     "groupId" : "com.github.mwiede",
     "artifactId" : "jsch",
-    "version" : "2.28.7",
+    "version" : "2.28.8",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:KWFWPv942SVAigMjo+QLKHWS2spdunRg82IEJJ3h4hWTcdNuG6HwM3UQPJnVVVgHXpBXyIT4rSPEC0Sn5mIgjw=="
+    "integrity" : "sha512:RhAfbOa9mRgRAyjQ/BllxvS92X8lVQsrdYKjpizFbTjDL2N0eHs8Bjvd0NSHvxylVKV/m03f6+coswUNce3eHQ=="
   }, {
     "groupId" : "com.github.spotbugs",
     "artifactId" : "spotbugs-annotations",
@@ -442,11 +442,11 @@
   }, {
     "groupId" : "jakarta.json.bind",
     "artifactId" : "jakarta.json.bind-api",
-    "version" : "3.0.3",
+    "version" : "3.0.4",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:sRjfwomqVzT/4HA3nmOyx+SM4lTh6qwKymHW7egNlE7T0J1oVNqEVR3/8trdI2rlhdjGuTvtq3f10e4rLDTKpQ=="
+    "integrity" : "sha512:i/orOiYkzPmwjocx0aLZwOOZUru6O8oA4URROWCexzGSDC6J5RMeTWD3GnKpst1yq4Pkuy9z8gSvCt5Ekn7+Ag=="
   }, {
     "groupId" : "jakarta.json",
     "artifactId" : "jakarta.json-api",
@@ -1082,203 +1082,203 @@
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-annotations-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:6wjvf8sU+1og1OMIuMot7bw4NzsMCTJooXslpZI8SaaYYubTOM7jdtWNIq5A00Fg1kx59QO00n5GkfZ5WuXjHA=="
+    "integrity" : "sha512:0znOVm9Rw60TJKyC4o4+c0w/uomsETkhyzqXcSnqu4ylJRY18xyOs9lY7zsCh6nwkDgHiPVPVdYHcLRE6eaSNQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:Od7kY/JJZteptEpOMirpalW4PJEsJ2K1hQoW7FJKQ9Nr3vBTYVmviWo9JiKu8ZjALQNGCvq9UuBpBnHlfFtWrQ=="
+    "integrity" : "sha512:e3kGqREgSPTFaJAi08rtI6ZIJXRH0sqa/Nf5vd23nlkzAGHVCsobTCdEqN7fyqaNbCyZY8Hq0gW4cwWqSjWfRw=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-catalina-ant",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:O63wl2lk0ITZKVs3EWjc6X3HyRrnVBj5Kdu5lHw08D8Fvun0kGTYdo0fCOr/UfVnJlUOjVOr8C+TXSxZ8jvBRg=="
+    "integrity" : "sha512:GrcD/x9owQmFq1/POyehVXDxiG8bQQZN6jFr/PV2ZOfSKANQccVdH5fkkzEHmrQEtISpWvotsNzf1h0Xvo7R0w=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-catalina-ha",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:NzOkv/tJ1VyGlerbS/XdeZN5p6sno8VwieT52/v5YZ1JdjUzZMv++DSo1s/G3HR1Z4n0Y94D/J5OiogBN6Pd4A=="
+    "integrity" : "sha512:CuA+wdMm1U0+tEggoDIB7yR7YHgAatOCLiMSxIzG/1OmOImA/N+YDXKDv6okoajAyVekwBMzSK1pIaCVJWi+zg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-catalina",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:TwlHVYlv6Osn6IZU6alG6zBu4iPPDBEtYgPW7aQk7ezeb9LY6NSc3m9S+85osGs1i5kRDfHyv2EgC6nPYN+0zQ=="
+    "integrity" : "sha512:CA8Y7gP6Lm0noy42got2nXCgX8QV1kPSg2HStZk/TnBI+l/1brwKB9ZuUVSNvmYIUPg6CwlayzPwjjG2Wos7YQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-coyote",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:PbJnTGOL7L/kzqrUzBO+jh3gr6eThnEKMjV3JCOdTOCU9JbXL8h+wLyFkU0stf9WXu+VCJRphKtnEo+vJ2xytw=="
+    "integrity" : "sha512:bbK9BoKhWCDPAPJVkqM7M7xBbvfuHTDb5Ic7XwlibUkuq8wJ0p6oq2LlTbC/3zgAHhzgCWpdQmu+tPDMIwEyrQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-dbcp",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:9lDvp0OiUc/hNxeGnzcI2gd71h1Q8UIunr7j4VvzM8GH9/n31K06ZtcVkVlAXKhKi+nJtQnqYoRQPkFYAP9LKw=="
+    "integrity" : "sha512:ozf0kTm4EiyzzYZ8tkZTF1S3wRnfFR8l2VYH72/Rhmbo7aqFYKIILk0BE6mLFdfKT02aZn09T83ySNiDAZTOtg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-el-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:hmhB2vC6qPhNNrcDyZ8T9a7FV8/qtA5xqJrw3OWNAXUcFfF9Z6/22raSOP/dHafa2J8hyQrWegxgDsMUxxYqaQ=="
+    "integrity" : "sha512:sKPFqTex8SBzr2Bk/+roupe8+dJlTrvFOyofrv+pgqdcLWADGFWgWE5dueUOXFNg8B/aujmZ5A77n86jUIeJ3Q=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-jasper-el",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:NbJ7FCY/Mhutj5Qvg6fbRXQdZwPsbuv6E+ktzvR1oeGpAjLh/KQOd3YXopANYpLvoYMemDkDUBF1Z4FiAMOclw=="
+    "integrity" : "sha512:l9Wj/yywbjPimUPri8asVAn6EBGUJ/i3YXEWB2P5yn7l9v5LTKAohxY5G/VMSGoyBxfDoRE4lv5KCVJiiUEvdg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-jasper",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:LkttaOFdh+kcAcJqFsDcxvcDYeT1HaBeCYMfLpjPMJP2m/k7q+QP0oH2eKUG6qVtOC1xoEcIIEViRwiyvJCK+w=="
+    "integrity" : "sha512:87DnC057WEsMxJ0rysgZjU7sdoGFYVENN6IUXJG0YvskqJ0z5/osvLU/gc8WECqX57sla9hyWFfMBCsOOUVEYg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-jaspic-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:e8DQ21f2onEIt8R9ZLNCEZCMBsoEQv9vLR1j0zPq6vYscCclPhUDHOABF1VNJHMG5P5OX/adIP13+3s/ayJ6Ow=="
+    "integrity" : "sha512:On7Vx8mp3PiVzC5D1H2/DioQCCzjZoW0RCgELPurBDMcDjVb1Y34id/biDleZxqBTuqD/v+DfQlShzNRWjpcCg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-jdbc",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:nf8TsiS/1WUF7gfE7mm4lsn1iWSSVcTG15CvwvYhDunJI30Lo33zlmZryaZSc60XnxWcmt9dViLFcCitgWAs7A=="
+    "integrity" : "sha512:k16PS/LNrJLsJLdMLGlKURBiQ1+Z9fvT+OgOA6xSvvD+YRrJMGv3AQ3ksSYjAZvvqyz4r6K/1jD5xfN44E4xKw=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-jni",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:Fz/57RoqJ/OQvowuqYksitHoOiB49S6YJ4bNKiwZ+JeozXajB4ZL4TT08WN96/1asq4djSFvrkfEmp88pPEhRg=="
+    "integrity" : "sha512:pzxNCSiIO8WkMmIa2ZF8MiTzjmmcRdTJH2Eghix2FtDvq5dYw6R8cDboFNfEIBPcAsojOOLDvuAN089xTNugGw=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-jsp-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:lFRv9c1Vc46untTesqKEbsBRmOsRW1em5UBb0ssyKqzzEeX39Id1OykSI/nWyDPrvQCGVVSXdfwtb7/5E8/XVw=="
+    "integrity" : "sha512:/kDVmXpzqx+UAG0xIgP7bXqWqkk4DXUX4SxdlU1mqzx9gx88tkGjx22sx7BWIZcfT49j2ZQi0eet6KLqQ+8MtA=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-juli",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:WZ+WZN56NLXkbHDKd9fdK9lj0QDidCcWhlNL/NT9gy1Ea9Fo4O4Dnb7Y7ZwG8hHMnEhnPlN0YObcHYOok0u2PA=="
+    "integrity" : "sha512:oEQ/d5t8TNkaKXt/6lRh48T+wl9RxP9tPAbcQzsuTst0TIEgZ7JAZheVUhBrFvrlLGj7TjGegUqrArLtYVjQfQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-servlet-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:2kKGPod982vqaVYzZcU394KFuyhzqtfDmsLwOevS0u/PymjaXjaPWLOYpzLWjKkCRQucdZoaoCPsDZAAohRO9Q=="
+    "integrity" : "sha512:+WnntJuZXoV/Ja+bH91j7Phap6sc2SEFyXJPEHV53Ui2lxxPoRXIfDrgXFwFuXR9ba8PsnzWEGm7ud6cpRznhg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-ssi",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:KyPVBSlm6DRES0dqYFHKqC+aD2QEgaB8Tg5mwzYpFCJFLXlaOH7eHCkwXdXbUlEPE8gV4DDTcuYyCf6Km3BfeA=="
+    "integrity" : "sha512:VLQl2u/g4EjrnvO16S7h4WRl0/JUmjlRRbtGP58Pon+cLxhxTqUddmo+xGAOoh3XkQcrixegQ/ETq5nViUUZdg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-storeconfig",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:3Gwgvd1zUh2idwNuLz6CqpysGFk4CYWcUkOoc+sqtDbA0z/KWzoPyXamVSvGkn3RlVYwxXWaOICeGg3DD5Zm3w=="
+    "integrity" : "sha512:+pf1PVr8v320HUBk5HddAtmePFyoeNsSHY+kt39kuc0ieqfprtzpAUWSRomV2Oi6EoqiANGOMhhSm7gTuDz5oQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-tribes",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:zI+tXjkjgQhfGjof9tZO6da8au2s59BhCt73MtGgERPm0P3pO2f0FxJfqMCkr/AvmkpW2gHQnSVvHy2qt4ABfQ=="
+    "integrity" : "sha512:0vnY9o1ri1R6cMbLKZ8wF1Ffa2UrNSWQqoLVaQgDphwO4GY7bUgwV+o171Le+itbjwkktx3Xo20FSDfuAAtYcg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-util-scan",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:X0rbl0u5z0PKa2X7MUincranw5Fi3gK/fWbCE9YnZ7XfQyalD9xjDAsV9Q2vhUfC0t2AYuUn1ApmmMafrIYajw=="
+    "integrity" : "sha512:OnvS0hzLpY0hHvpwHaenc/iTwe67RCtUizW0DJ+NHfmKhhpPArNMveFL/vDAPp8SbkWu+YfY/g/rEUuf1uMssQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-util",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:7ctuSLpY5x1uuaj7XK14SxoZl28apMUB8wYYeKuumEEr3ohlcmFS4gaA3vyaZu3Mq5Ne6ULlX6NivATYteWUrw=="
+    "integrity" : "sha512:o9bVqJgeJQqWlGldFaiZUOJCrlwrMjnB/61xpoAeKdoBPKtOTIXP6gWOsMLhRPgsaDL8tNaNhJDezLN1+vCQgA=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-websocket-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:Z60oN9DSRQme/MLtFfCcKopTWguGvC7WV+sJ1t1Q25jLEOZV+hUKOxBk3jPWEkr1zs3BVgZ+JCi4NNobLJP87Q=="
+    "integrity" : "sha512:e09EmXZAqaJ9ktlQHVUtrD4uqYSBTmOeePLwZlmMzWReFvcQfQ2jp2NoatlIFkLF11a5pEMJL4gbQe/w151khg=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-websocket-client-api",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:I10PaKPdfNNH2VFMei8MTqPkfOj972l+y9fH6xLSa3FAh+l5Qsk6HfjYI8NOqRYuRKeAkrBlke+fJKWwYfhS1A=="
+    "integrity" : "sha512:2b4RNgI5XCKFpS8MTO5jScGwlS+NT2fUzcOQ7Nfcz8IB2vwbe4l3vaDv580XRAu8xymm5juklRxBICOzTK+xew=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat-websocket",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:mnGMoSKGmGkU8D8CnkTqH0jeWJMWXuIkI79gA32ggkVukQA0Jzi0EgER7bKiHF96O/euS/dVUf253VetAtOlaQ=="
+    "integrity" : "sha512:P3xyw5IqdUPaN9OwEsBXnO1b5F7wkqRDC4FYveyhqQhzJhulpwxNe1AntcJLALOiLgTcbrN0YWK4P6lqBe5ovQ=="
   }, {
     "groupId" : "org.apache.tomcat",
     "artifactId" : "tomcat",
-    "version" : "11.0.26",
+    "version" : "11.0.27",
     "scope" : "compile",
     "type" : "tar.gz",
     "optional" : false,
-    "integrity" : "sha512:534IDZ2NfgUlRNDSGwxzgWn57PKE/lpo0Mfi2pfdk+Dw87KqF4UHrYVSWDw1XY4rGT/bdrPkwsEuv9RYxDztJA=="
+    "integrity" : "sha512:pheJYwfK2kiEsk+AxOl33a2LPg+Izg4qbuop1fMySY4nauWXbCJ6nI2uzwXHyQ3vaEo3Zt1agfR6VtixrfQ9ww=="
   }, {
     "groupId" : "org.apiguardian",
     "artifactId" : "apiguardian-api",
@@ -1314,11 +1314,11 @@
   }, {
     "groupId" : "org.checkerframework",
     "artifactId" : "checker-qual",
-    "version" : "4.3.0",
+    "version" : "4.3.1",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:WgEf7xT3gziupF/YFFcP77SahfBcfhTcvWaZnYdf4DomOx121UNUYJmq3xU8GW1QbpMQ/u9kEMI7atoUx2On2w=="
+    "integrity" : "sha512:kb4GknBsWItU+8PB8YpQeRflQFNhCJYJRFfUyMdoHfSwOOeGdv9iB+Rl1b7QhDVxMVNNmmRH63QsAKFHgQcg0Q=="
   }, {
     "groupId" : "org.codehaus.janino",
     "artifactId" : "commons-compiler",
@@ -1338,11 +1338,11 @@
   }, {
     "groupId" : "org.codehaus.woodstox",
     "artifactId" : "stax2-api",
-    "version" : "4.3.1",
+    "version" : "4.3.2",
     "scope" : "runtime",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:QUfMNdafKbgABQ0+m6TiPhZ+50N1VHacvTF+kguTQYE2lWe5naRpLDunxlvwM+4P3R6JxOSZKcAhHV4KBlBRfQ=="
+    "integrity" : "sha512:Lfu5FYGopV6oMzkuu1RaIi2jfqhlwJ5h2ULSUhzYMcJB5FmN+aPNjEoDd7bYcTwJlavQ1c4q3YRIddj33Rbe1w=="
   }, {
     "groupId" : "org.commonmark",
     "artifactId" : "commonmark",
@@ -1378,11 +1378,11 @@
   }, {
     "groupId" : "org.eclipse.jdt",
     "artifactId" : "ecj",
-    "version" : "3.46.0",
+    "version" : "3.46.100",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:Cyx5niDb3QdCcvryrtRUGG8K0ldZwJljNQvO6o6b7ArZoEaTEVQByrahyRIrlKum1510Hu8uADpBSbL+APbxWA=="
+    "integrity" : "sha512:CAu0A62zuItbXzgjiJIkJd5SdPdynwqUcC8OKlFsfRPGdA+qscsgeGsd2gxdqTOqm4QvfGSGdBT/dfpmjqBrCQ=="
   }, {
     "groupId" : "org.eclipse.persistence",
     "artifactId" : "jakarta.persistence",
@@ -1530,11 +1530,11 @@
   }, {
     "groupId" : "org.glassfish",
     "artifactId" : "jakarta.faces",
-    "version" : "4.1.17",
+    "version" : "4.1.18",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:ZAOZ3iTLHePPBgQ4tmDPCBttTFUAFIOvhic0FVZNuF9kaxyreAYlwk3ydG13whsQ+Fe9Kk2QX5k6Mr0gNtPtmg=="
+    "integrity" : "sha512:obGKqf0nR2b+pplrfAXD0KPrSNmhLXA2JZF5Afp2qYrxJYdKbkEAWoYUaJjnOtW/w0DaRpa/4BQo0TDWxDHfjw=="
   }, {
     "groupId" : "org.glassfish",
     "artifactId" : "jakarta.json",
@@ -1554,27 +1554,27 @@
   }, {
     "groupId" : "org.hibernate.validator",
     "artifactId" : "hibernate-validator-annotation-processor",
-    "version" : "9.1.4.Final",
+    "version" : "9.1.5.Final",
     "scope" : "test",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:vUcvLnWODybh6eDrD6a31O2uXH+djgHqWkW+QeHiqA27tlpda03RiAckK7E4tRgiFsVci/EBaELiobLZJk0SSA=="
+    "integrity" : "sha512:PLJTYQ/ySE4+hQzqCyGF76DXeQ2cLujylzTWBqH5B1O5bl9FFqF0wn2VryIYFMVYVOR2OfMgleYVb2fwE7EPbw=="
   }, {
     "groupId" : "org.hibernate.validator",
     "artifactId" : "hibernate-validator-cdi",
-    "version" : "9.1.4.Final",
+    "version" : "9.1.5.Final",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:1Ve9JDa4yiUVno3F66WwepscoI91yv34fO2xjy0mtRG8Z1oLNzrenetWeE3SKeDHp1EaI0eXorTtHCqrZvgVCQ=="
+    "integrity" : "sha512:Zshj5m4QMKn/xY+/SEiZ9/9wPp0doOhvJSYRYMnPOlXMXT0RxfSGI8wGj7EqNku/46aUQllidv0JAdr+ceW4Yw=="
   }, {
     "groupId" : "org.hibernate.validator",
     "artifactId" : "hibernate-validator",
-    "version" : "9.1.4.Final",
+    "version" : "9.1.5.Final",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:On+ikwYSm47i0Ax4lAX8/1D2DLsfQtXTbVGKH1MHRxk48JhF7jaD3lAd/ggBrDhfajhfFhZ1bw9w76ZCKZR0Xg=="
+    "integrity" : "sha512:K5EGf2QrF/RwxVB3eo3zRxeXQ9COPjQgeu261Mah+4cg6AcQDARV+wV+ABSElGmyl9dTZZ4P02HseTH7q2elzw=="
   }, {
     "groupId" : "org.javassist",
     "artifactId" : "javassist",
@@ -1866,15 +1866,15 @@
   }, {
     "groupId" : "org.omnifaces",
     "artifactId" : "omnifaces",
-    "version" : "5.5.4",
+    "version" : "5.5.5",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:eM+S3lFVeLD5kKf+8gkq+YByFHgnUvvXSOIKAVmGMFNuvRRGk49NEYok3n9SooPKvrWhUcZ4ewKseYzcZT5rmA=="
+    "integrity" : "sha512:g4RidBfIqiN5s3FPBybur1zBuVUuFNM8QwzHS0JsWSWlBdUyCGRXHzNnSFBHSAKehEVhMJK7sOuGskABEXAN2g=="
   }, {
     "groupId" : "org.openjfx",
     "artifactId" : "javafx-base",
-    "version" : "28-ea+11",
+    "version" : "28-ea+12",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
@@ -1882,16 +1882,16 @@
   }, {
     "groupId" : "org.openjfx",
     "artifactId" : "javafx-base",
-    "version" : "28-ea+11",
+    "version" : "28-ea+12",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:Ct4ewg+ZO1WxKfZ2sLTLNGF3TgsNxXSOVlI8TKABkmnK3qQi/7gWfQS5tjQYu4aF8zSQSGgM6H2p2z6llYddGA==",
+    "integrity" : "sha512:vujZ//KL/QVuG3hhwSOXVqarhTxYzAA62cml9dHv1mXulfeCPq2SFjeab/ESPKWPZvmJOMWw5VYutbyQQlzCOg==",
     "classifier" : "win"
   }, {
     "groupId" : "org.openjfx",
     "artifactId" : "javafx-graphics",
-    "version" : "28-ea+11",
+    "version" : "28-ea+12",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
@@ -1899,16 +1899,16 @@
   }, {
     "groupId" : "org.openjfx",
     "artifactId" : "javafx-graphics",
-    "version" : "28-ea+11",
+    "version" : "28-ea+12",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:M8y1nRVbwhgbh3IjC4setM4XOeLTOFqsosxLUlJinTNMxhF/FoFUTmwLI3jhcT3PQL0P0bUTIUYA5H+FrFbs1A==",
+    "integrity" : "sha512:ZkNTMgsN9Iu2g6/zaRdcMMiw8ZgP2fpKDy9ISjZOYy3e2SFAk3HhdGlJhWOA2VzdBW/3OAwR4HtqLofvRgZERA==",
     "classifier" : "win"
   }, {
     "groupId" : "org.openjfx",
     "artifactId" : "javafx-swing",
-    "version" : "28-ea+11",
+    "version" : "28-ea+12",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
@@ -1916,11 +1916,11 @@
   }, {
     "groupId" : "org.openjfx",
     "artifactId" : "javafx-swing",
-    "version" : "28-ea+11",
+    "version" : "28-ea+12",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:FTnUDACLmhwfPjX3eN2BFkaCsk3ow+xQc1Fv0fK7gqHtlyZN2rq1V2sZDNBjjiS893R5Gqis8j8ym7nzWwLahw==",
+    "integrity" : "sha512:1W2juIIJnLOkC2PAKj8VIbtHnEdIKpiGqeK5+PaLYy9OVd2RB2BaqiPif7l4OsdysRwRLxps0Cd8UaEZ6jYFow==",
     "classifier" : "win"
   }, {
     "groupId" : "org.opentest4j",
@@ -1933,35 +1933,35 @@
   }, {
     "groupId" : "org.ow2.asm",
     "artifactId" : "asm-analysis",
-    "version" : "9.10.1",
+    "version" : "9.11",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:BUKpC+OPgeOe9DqSU2MKLVn4LBfCRJLwBcZ2GVYTCK+70jv4UE0+g7HUzr5XRhJtp2A3Rz3awwcbAowq4nkpaw=="
+    "integrity" : "sha512:3TB9KDOOm3DpJ0a8JGiP3pOzdI7w8nb58+p1g1+nqN1FVAHQ0rApIbBQ8HqXngl0o2/nCE9tzmN/Ktuv+spCog=="
   }, {
     "groupId" : "org.ow2.asm",
     "artifactId" : "asm-tree",
-    "version" : "9.10.1",
+    "version" : "9.11",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:L/5bv6xTu6zB5OR0YotCR/scX1kgF/OToyez8tKnKjOCY/L2VJpCzqV6QvZ2uWcVOhCiKq5Gr/7YNgj3Ta83aA=="
+    "integrity" : "sha512:K//NUQgBiOvZnG+Ps1bIPmW44bkiat6Unvm9vIzmEOsa6EDm0mip3X4YZLZ5kO4fegIC2fltSUdkI6eAqlpiyQ=="
   }, {
     "groupId" : "org.ow2.asm",
     "artifactId" : "asm-util",
-    "version" : "9.10.1",
+    "version" : "9.11",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:czDe2YHd6wGzAsuhLVa0GSB7awLr+vgUy7w9LS0QVeBVKUzhCKyeTenh0PPE4AZPEz6H6AhZIiQcGi5fof7dLA=="
+    "integrity" : "sha512:pZML1QDyAtXECNJsa091hpoShtft4D70uv1DZuI94J7cCWH6HenCrJhV5mMffKeccAwRFjI4AQcNk+ZXGunw1A=="
   }, {
     "groupId" : "org.ow2.asm",
     "artifactId" : "asm",
-    "version" : "9.10.1",
+    "version" : "9.11",
     "scope" : "compile",
     "type" : "jar",
     "optional" : false,
-    "integrity" : "sha512:jbbvo31NVpvyuV2QkxuAZPh+2SjSC7+Njn+mGC6aEdMuaizANKPRc6OO5wzi6p8g9S+dhzDZQB0rxgYGdMGJKA=="
+    "integrity" : "sha512:Kh76zI0oOob6vio89IVZc27Jt6Ei/SW4Si8UiqQc4KU3JWzUFIBy5D9M6UMHZ4STBvraB64Z3EokeuuThbcIVg=="
   }, {
     "groupId" : "org.owasp.encoder",
     "artifactId" : "encoder",
