@@ -4,6 +4,10 @@
  *
  * Copyright 2011-2026 Hazendaz
  */
+/*
+ * Retained for local self-hosted Renovate testing and configuration
+ * validation. Repository-specific rules are maintained in renovate.json.
+ */
 module.exports = {
     baseBranches: ['master'],
     commitMessagePrefix: '[renovate]',
