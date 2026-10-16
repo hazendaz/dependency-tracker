@@ -167,7 +167,7 @@
             <dependency>
                 <groupId>com.fasterxml</groupId>
                 <artifactId>classmate</artifactId>
-                <version>1.7.3</version>
+                <version>1.8.0</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.woodstox</groupId>
@@ -742,7 +742,7 @@
         <dependency>
             <groupId>com.fasterxml</groupId>
             <artifactId>classmate</artifactId>
-            <version>1.7.3</version>
+            <version>1.8.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
