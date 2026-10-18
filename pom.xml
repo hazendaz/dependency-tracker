@@ -64,7 +64,7 @@
         <deltaspike.version>2.0.1</deltaspike.version>
         <groovy.version>6.0.0</groovy.version>
         <hk2.version>4.0.3</hk2.version>
-        <jackson.version>2.22.3</jackson.version>
+        <jackson.version>2.22.4</jackson.version>
         <janino.version>3.1.12</janino.version>
         <jersey.version>4.0.3</jersey.version>
         <jna.version>5.19.1</jna.version>
